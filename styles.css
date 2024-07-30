@@ -70,3 +70,7 @@ body {
 .sketchfab-embed-wrapper a:hover {
     color: #ffa500;
 }
+
+.services-area{
+    border-radius: 25px;
+}

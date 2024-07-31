@@ -22,6 +22,7 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    border-radius: 25px;
 }
 
 /* Header Styles */
@@ -34,11 +35,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 25px;
+    background-color: dimgrey;opacity: 0.3;
 }
 
 .logo img {
-    max-height: 50px;
+    max-height: 105px;
+    align-items: center;
+    
+    
+    
 }
+.single-services mb-30{
+    font color: black;
+}
+
+
 
 .main-menu ul {
     list-style: none;
@@ -104,7 +116,7 @@ header {
     padding: 60px 0;
     background: #4002cf;opacity:0.5 ;
     align-self: auto;
-    border-radius: 25px;
+    border-radius: 35px;
 }
 
 .single-services {
@@ -137,6 +149,10 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
 }
+.properties__img overlay1{
+    border-radius: 25%;
+    box-shadow: 15px;
+}
 
 .properties__img img {
     width: 100%;
@@ -149,6 +165,9 @@ header {
 
 .properties__caption h3 {
     margin: 10px 0;
+}
+.preloader-img pere-text{
+    max-width: 25px;
 }
 
 .border-btn {
